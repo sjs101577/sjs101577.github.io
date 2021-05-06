@@ -1,0 +1,91 @@
+* { box-sizing:border-box;}
+body{ margin: 0;}
+
+a{
+    text-decoration:none;
+}
+header{
+    background-color:wheat;
+}
+nav{
+    background-color: orange;
+}
+#main{
+    background-color: seashell;
+}
+article{
+    background-color: gainsboro;
+}
+footer{
+    background-color: rgb(238, 196, 203);
+}
+
+#main{
+    display:flex;
+    justify-content: center;
+}
+section{
+    width:70%;
+    padding:20px;
+}
+section > h2{
+    color:rgb(14, 31, 7);
+}
+article{
+    height:150px;
+    border-radius:10px;
+    padding:20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar>a{
+    color:black;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.navbar>a:hover{
+    color:white;
+    background-color:darksalmon;
+}
+
+#Home{
+    margin-right: auto;
+}
+
+.header{
+    text-align: center;
+    color:white;
+    padding:15px;
+}
+
+footer{
+    padding:15px;
+}
+
+footer> a{
+    color:blueviolet;
+    font-weight:bold;
+    padding-left:20px;
+}
+
+.footer> a:hover{
+    color:white;
+    
+html, body{
+    height: 100%
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+#Main{
+    flex:1;
+}
